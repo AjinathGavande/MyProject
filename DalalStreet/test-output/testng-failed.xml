@@ -13,6 +13,13 @@
           <include name="loginTest"/>
         </methods>
       </class> <!-- com.TestLayer.LoginTest -->
+      <class name="com.TestLayer.LogoutTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="logoutTest"/>
+        </methods>
+      </class> <!-- com.TestLayer.LogoutTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

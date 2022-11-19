@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeMethod;
 
 import com.PageLayer.DashboardPage;
 import com.PageLayer.LoginPage;
+import com.PageLayer.TransactionPage;
 import com.Utility.Util;
 
 public class TestBase 
@@ -19,6 +20,8 @@ public class TestBase
 	public LoginPage login;
 	public Util util;
 	public DashboardPage dash;
+	public TransactionPage trans;
+	
 	
 	@BeforeMethod
 	public void setup()
@@ -53,7 +56,7 @@ public class TestBase
 		  
 		  util = new Util();
 		  dash = new DashboardPage();
-		  
+		  trans = new TransactionPage(); 
 		  
 	}
 	

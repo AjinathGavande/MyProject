@@ -17,6 +17,8 @@ public class DashboardPage extends TestBase
 	
 	private By power_off_btn = By.xpath("//span[text()='Power Off']");
 	
+	private By transaction_lnk = By.xpath("//a[contains(text(),'Transactions')]");
+	
 	
 	//----------------action methods----
 	public void clickOnProfile()
@@ -26,6 +28,10 @@ public class DashboardPage extends TestBase
 	public void clickOnPowerOff()
 	{
 		driver.findElement(power_off_btn).click();
+	}
+	public void clickOnTransaction()
+	{
+		driver.findElement(transaction_lnk).click();
 	}
 
 
