@@ -9,6 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import com.PageLayer.DashboardPage;
 import com.PageLayer.LoginPage;
 import com.Utility.Util;
 
@@ -17,6 +18,7 @@ public class TestBase
 	public static WebDriver driver;
 	public LoginPage login;
 	public Util util;
+	public DashboardPage dash;
 	
 	@BeforeMethod
 	public void setup()
@@ -50,6 +52,9 @@ public class TestBase
 		//-----------objects------------------------------
 		  
 		  util = new Util();
+		  dash = new DashboardPage();
+		  
+		  
 	}
 	
 	@AfterMethod
