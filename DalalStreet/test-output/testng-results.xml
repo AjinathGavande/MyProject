@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-19T20:20:28 IST" name="Suite" finished-at="2022-11-19T20:21:32 IST" duration-ms="63488">
+  <suite started-at="2022-11-23T17:47:47 IST" name="Suite" finished-at="2022-11-23T17:48:58 IST" duration-ms="70585">
     <groups>
     </groups>
-    <test started-at="2022-11-19T20:20:28 IST" name="Test" finished-at="2022-11-19T20:21:32 IST" duration-ms="63488">
+    <test started-at="2022-11-23T17:47:47 IST" name="Test" finished-at="2022-11-23T17:48:58 IST" duration-ms="70585">
       <class name="com.TestLayer.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestLayer.LoginTest@74e52303]" started-at="2022-11-19T20:20:52 IST" name="setup" finished-at="2022-11-19T20:21:02 IST" duration-ms="10271" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestLayer.LoginTest@1fa268de]" started-at="2022-11-23T17:48:20 IST" name="setup" finished-at="2022-11-23T17:48:29 IST" duration-ms="9081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.TestLayer.LoginTest@74e52303]" started-at="2022-11-19T20:21:02 IST" name="loginTest" finished-at="2022-11-19T20:21:05 IST" duration-ms="3022" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.TestLayer.LoginTest@1fa268de]" started-at="2022-11-23T17:48:29 IST" name="loginTest" finished-at="2022-11-23T17:48:32 IST" duration-ms="3025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestLayer.LoginTest@74e52303]" started-at="2022-11-19T20:21:05 IST" name="tearDown" finished-at="2022-11-19T20:21:09 IST" duration-ms="3821" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestLayer.LoginTest@1fa268de]" started-at="2022-11-23T17:48:32 IST" name="tearDown" finished-at="2022-11-23T17:48:35 IST" duration-ms="3316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.TestLayer.LoginTest -->
       <class name="com.TestLayer.LogoutTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestLayer.LogoutTest@619713e5]" started-at="2022-11-19T20:20:28 IST" name="setup" finished-at="2022-11-19T20:20:42 IST" duration-ms="13899" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestLayer.LogoutTest@7193666c]" started-at="2022-11-23T17:47:47 IST" name="setup" finished-at="2022-11-23T17:48:09 IST" duration-ms="21493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logoutTest()[pri:0, instance:com.TestLayer.LogoutTest@619713e5]" started-at="2022-11-19T20:20:42 IST" name="logoutTest" finished-at="2022-11-19T20:20:48 IST" duration-ms="6051" status="PASS">
+        <test-method signature="logoutTest()[pri:0, instance:com.TestLayer.LogoutTest@7193666c]" started-at="2022-11-23T17:48:09 IST" name="logoutTest" finished-at="2022-11-23T17:48:16 IST" duration-ms="6906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestLayer.LogoutTest@619713e5]" started-at="2022-11-19T20:20:48 IST" name="tearDown" finished-at="2022-11-19T20:20:52 IST" duration-ms="3491" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestLayer.LogoutTest@7193666c]" started-at="2022-11-23T17:48:16 IST" name="tearDown" finished-at="2022-11-23T17:48:20 IST" duration-ms="3819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.TestLayer.LogoutTest -->
       <class name="com.TestLayer.GetTransactionData">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestLayer.GetTransactionData@47af7f3d]" started-at="2022-11-19T20:21:09 IST" name="setup" finished-at="2022-11-19T20:21:19 IST" duration-ms="9644" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestLayer.GetTransactionData@4f6ee6e4]" started-at="2022-11-23T17:48:35 IST" name="setup" finished-at="2022-11-23T17:48:45 IST" duration-ms="10325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="fetchTransaction()[pri:0, instance:com.TestLayer.GetTransactionData@47af7f3d]" started-at="2022-11-19T20:21:19 IST" name="fetchTransaction" finished-at="2022-11-19T20:21:28 IST" duration-ms="9829" status="PASS">
+        <test-method signature="fetchTransaction()[pri:0, instance:com.TestLayer.GetTransactionData@4f6ee6e4]" started-at="2022-11-23T17:48:45 IST" name="fetchTransaction" finished-at="2022-11-23T17:48:55 IST" duration-ms="9242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchTransaction -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestLayer.GetTransactionData@47af7f3d]" started-at="2022-11-19T20:21:28 IST" name="tearDown" finished-at="2022-11-19T20:21:32 IST" duration-ms="3401" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestLayer.GetTransactionData@4f6ee6e4]" started-at="2022-11-23T17:48:55 IST" name="tearDown" finished-at="2022-11-23T17:48:58 IST" duration-ms="3341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -6,8 +6,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.log4testng.Logger;
 
 import com.PageLayer.DashboardPage;
 import com.PageLayer.LoginPage;
@@ -21,7 +24,18 @@ public class TestBase
 	public Util util;
 	public DashboardPage dash;
 	public TransactionPage trans;
+
 	
+	@BeforeClass
+	public void start()
+	{
+		
+	}
+	@AfterClass
+	public void stop()
+	{
+		
+	}
 	
 	@BeforeMethod
 	public void setup()
