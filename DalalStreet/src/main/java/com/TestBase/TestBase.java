@@ -15,6 +15,7 @@ import org.testng.log4testng.Logger;
 import com.PageLayer.DashboardPage;
 import com.PageLayer.LoginPage;
 import com.PageLayer.TransactionPage;
+import com.Utility.ReadConfig;
 import com.Utility.Util;
 
 public class TestBase 
@@ -24,12 +25,12 @@ public class TestBase
 	public Util util;
 	public DashboardPage dash;
 	public TransactionPage trans;
-
+	ReadConfig readConfig = new ReadConfig();
 	
 	@BeforeClass
 	public void start()
 	{
-		
+	
 	}
 	@AfterClass
 	public void stop()
@@ -57,9 +58,10 @@ public class TestBase
 		{
 			System.out.println("Please provide correct browser....!");
 		}
+		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.get("https://www.apps.dalalstreet.ai/login");
+		driver.get(readConfig.getURL());
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		login = new LoginPage();
 		login.enterEmail();

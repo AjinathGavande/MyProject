@@ -7,7 +7,9 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="start"/>
           <include name="loginTest"/>
+          <include name="stop"/>
         </methods>
       </class> <!-- com.TestLayer.LoginTest -->
     </classes>
