@@ -25,14 +25,14 @@ public class LoginPage extends TestBase
 	private WebElement Login_btn;
 	
 	//-------------action method-------------------
-	public void enterEmail()
+	public void enterEmail(String email)
 	{
-		Email_txtbox.sendKeys("amarwaghmare573@gmail.com");
+		Email_txtbox.sendKeys(email);
 	}
 	
-	public void enterPassword()
+	public void enterPassword(String passward)
 	{
-		Password_txtbox.sendKeys("Test@1234");
+		Password_txtbox.sendKeys(passward);
 	}
 	
 	public void clickOnLogin()
