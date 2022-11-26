@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 02 09:53:47 IST 2022</td>
+<td>Started on:</td><td>Sat Nov 26 14:31:43 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>3 seconds (3920 ms)</td>
+<tr><td>Total time:</td><td>3 seconds (3016 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,8 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testLayer.BuyProductTest.setUp()'><b>setUp</b><br>Test class: testLayer.BuyProductTest</td>
-<td><div><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:43)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:81)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:128)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.pro&quot; is null
+	at utility.ReadConfig.getApplicationURL(ReadConfig.java:33)
 	at testBase.TestBase.setUp(TestBase.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -117,13 +112,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace2151717", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2151717'><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:43)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:81)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:128)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+<div class='stack-trace' id='stack-trace2151717'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.pro&quot; is null
+	at utility.ReadConfig.getApplicationURL(ReadConfig.java:33)
 	at testBase.TestBase.setUp(TestBase.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -158,7 +148,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>3</td>
+<td>2</td>
 <td>testLayer.BuyProductTest@52e6fdee</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
@@ -171,7 +161,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='testLayer.BuyProductTest.tearDown()'><b>tearDown</b><br>Test class: testLayer.BuyProductTest</td>
 <td></td>
-<td>-1667363031</td>
+<td>-1669453306</td>
 <td>testLayer.BuyProductTest@52e6fdee</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
@@ -183,13 +173,8 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testLayer.BuyProductTest.test()'><b>test</b><br>Test class: testLayer.BuyProductTest</td>
-<td><div><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:43)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:81)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:128)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.pro&quot; is null
+	at utility.ReadConfig.getApplicationURL(ReadConfig.java:33)
 	at testBase.TestBase.setUp(TestBase.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -223,14 +208,9 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace881977454", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace881977454'><pre>java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:43)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:81)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:128)
-	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+</pre></div><a href='#' onClick='toggleBox("stack-trace204568533", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace204568533'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.pro&quot; is null
+	at utility.ReadConfig.getApplicationURL(ReadConfig.java:33)
 	at testBase.TestBase.setUp(TestBase.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)

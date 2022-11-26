@@ -10,7 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadData {
 
-	String path = "C:\\Users\\232338\\eclipse-workspace\\07May22SwagLab\\src\\main\\java\\com\\testData\\MyTestData07May.xlsx";
+	String path = "D:\\GitHub\\DemoRepo04JuneMB\\MyProject\\MyProject\\SwagLabDataProvider\\src\\main\\java\\com\\testData\\MyTestData07May.xlsx";
 	
 	File file;
 	FileInputStream fis;

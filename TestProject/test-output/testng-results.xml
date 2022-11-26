@@ -2,24 +2,19 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-02T09:53:47 IST" name="Default suite" finished-at="2022-11-02T09:53:51 IST" duration-ms="3920">
+  <suite started-at="2022-11-26T14:31:43 IST" name="Default suite" finished-at="2022-11-26T14:31:46 IST" duration-ms="3016">
     <groups>
     </groups>
-    <test started-at="2022-11-02T09:53:47 IST" name="Default test" finished-at="2022-11-02T09:53:51 IST" duration-ms="3920">
+    <test started-at="2022-11-26T14:31:43 IST" name="Default test" finished-at="2022-11-26T14:31:46 IST" duration-ms="3016">
       <class name="testLayer.BuyProductTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testLayer.BuyProductTest@52e6fdee]" started-at="2022-11-02T09:53:47 IST" name="setUp" finished-at="2022-11-02T09:53:51 IST" duration-ms="3852" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testLayer.BuyProductTest@52e6fdee]" started-at="2022-11-26T14:31:43 IST" name="setUp" finished-at="2022-11-26T14:31:46 IST" duration-ms="2934" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[null value in entry: url=null]]>
+              <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "this.pro" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
-at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:43)
-at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:81)
-at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:128)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.pro" is null
+at utility.ReadConfig.getApplicationURL(ReadConfig.java:33)
 at testBase.TestBase.setUp(TestBase.java:43)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -59,19 +54,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:testLayer.BuyProductTest@52e6fdee]" started-at="2022-11-02T09:53:51 IST" name="test" finished-at="2022-11-02T09:53:51 IST" duration-ms="0" status="SKIP">
+        <test-method signature="test()[pri:0, instance:testLayer.BuyProductTest@52e6fdee]" started-at="2022-11-26T14:31:46 IST" name="test" finished-at="2022-11-26T14:31:46 IST" duration-ms="1" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[null value in entry: url=null]]>
+              <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "this.pro" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
-at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:43)
-at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:81)
-at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:128)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.pro" is null
+at utility.ReadConfig.getApplicationURL(ReadConfig.java:33)
 at testBase.TestBase.setUp(TestBase.java:43)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -111,7 +101,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testLayer.BuyProductTest@52e6fdee]" started-at="2022-11-02T09:53:51 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1667363031739" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testLayer.BuyProductTest@52e6fdee]" started-at="2022-11-26T14:31:46 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1669453306590" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
