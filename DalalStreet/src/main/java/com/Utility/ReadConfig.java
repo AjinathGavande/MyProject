@@ -1,5 +1,6 @@
 package com.Utility;
 
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -13,22 +14,25 @@ public class ReadConfig
 	{
 		String path = "D:\\GitHub\\DemoRepo04JuneMB\\MyProject\\MyProject\\DalalStreet\\Config\\Config.properties";
 		File file = new File(path);
-		try
+		try 
 		{
-			FileInputStream fis = new FileInputStream(file);
+			FileInputStream fis =new FileInputStream(file);
 			pro = new Properties();
 			pro.load(fis);
-		} catch (IOException e) 
+		}
+		catch (IOException e) 
 		{
 			System.out.println("Exception is "+e.getMessage());
+			e.printStackTrace();
 		}
+
 	
 	}
 	
-	public String getURL()
+	public String getApplicationURL()
 	{
-		pro.getProperty("url");
-		return getURL();
+		String url = pro.getProperty("url");
+		return url;
 	}
 	
 	public String setBrowser()

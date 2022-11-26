@@ -1,5 +1,6 @@
 package com.TestBase;
 
+import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
@@ -16,6 +17,7 @@ import com.PageLayer.DashboardPage;
 import com.PageLayer.LoginPage;
 import com.PageLayer.TransactionPage;
 import com.Utility.ReadConfig;
+import com.Utility.ReadData;
 import com.Utility.Util;
 
 public class TestBase 
@@ -27,19 +29,8 @@ public class TestBase
 	public TransactionPage trans;
 	ReadConfig readConfig = new ReadConfig();
 	
-	@BeforeClass
-	public void start()
-	{
-	
-	}
-	@AfterClass
-	public void stop()
-	{
-		
-	}
-	
 	@BeforeMethod
-	public void setup()
+	public void setup() throws IOException
 	{
 		String br = "edge";
 		if(br.equalsIgnoreCase("chrome"))
@@ -61,11 +52,11 @@ public class TestBase
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.get(readConfig.getURL());
+		driver.get(readConfig.getApplicationURL());
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		login = new LoginPage();
-		login.enterEmail();
-		login.enterPassword();
+		login.enterEmail(ReadData.readData("LoginData", 1, 0));
+		login.enterPassword(ReadData.readData("LoginData", 1, 1));
 		login.clickOnLogin();
 		
 		//-----------objects------------------------------
