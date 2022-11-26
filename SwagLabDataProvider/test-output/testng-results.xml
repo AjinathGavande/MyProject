@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-02T10:59:34 IST" name="Default suite" finished-at="2022-11-02T11:00:09 IST" duration-ms="35494">
+  <suite started-at="2022-11-26T14:03:46 IST" name="Default suite" finished-at="2022-11-26T14:04:29 IST" duration-ms="43070">
     <groups>
     </groups>
-    <test started-at="2022-11-02T10:59:34 IST" name="Default test" finished-at="2022-11-02T11:00:09 IST" duration-ms="35494">
+    <test started-at="2022-11-26T14:03:46 IST" name="Default test" finished-at="2022-11-26T14:04:29 IST" duration-ms="43070">
       <class name="com.testLayer.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testLayer.LoginPageTest@3bb9a3ff]" started-at="2022-11-02T10:59:35 IST" name="setUp" finished-at="2022-11-02T10:59:42 IST" duration-ms="6831" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testLayer.LoginPageTest@7c729a55]" started-at="2022-11-26T14:03:49 IST" name="setUp" finished-at="2022-11-26T14:04:03 IST" duration-ms="14179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.testLayer.LoginPageTest@3bb9a3ff]" started-at="2022-11-02T10:59:42 IST" name="loginTest" data-provider="LoginData123" finished-at="2022-11-02T10:59:43 IST" duration-ms="763" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.testLayer.LoginPageTest@7c729a55]" started-at="2022-11-26T14:04:03 IST" name="loginTest" data-provider="LoginData123" finished-at="2022-11-26T14:04:04 IST" duration-ms="1085" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testLayer.LoginPageTest@3bb9a3ff]" started-at="2022-11-02T10:59:43 IST" name="tearDown" finished-at="2022-11-02T10:59:43 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testLayer.LoginPageTest@7c729a55]" started-at="2022-11-26T14:04:04 IST" name="tearDown" finished-at="2022-11-26T14:04:05 IST" duration-ms="490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testLayer.LoginPageTest@3bb9a3ff]" started-at="2022-11-02T10:59:43 IST" name="setUp" finished-at="2022-11-02T10:59:49 IST" duration-ms="6434" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testLayer.LoginPageTest@7c729a55]" started-at="2022-11-26T14:04:05 IST" name="setUp" finished-at="2022-11-26T14:04:09 IST" duration-ms="3810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.testLayer.LoginPageTest@3bb9a3ff]" started-at="2022-11-02T10:59:49 IST" name="loginTest" data-provider="LoginData123" finished-at="2022-11-02T10:59:50 IST" duration-ms="1097" status="FAIL">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.testLayer.LoginPageTest@7c729a55]" started-at="2022-11-26T14:04:09 IST" name="loginTest" data-provider="LoginData123" finished-at="2022-11-26T14:04:09 IST" duration-ms="499" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -95,15 +95,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testLayer.LoginPageTest@3bb9a3ff]" started-at="2022-11-02T10:59:50 IST" name="tearDown" finished-at="2022-11-02T10:59:50 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testLayer.LoginPageTest@7c729a55]" started-at="2022-11-26T14:04:09 IST" name="tearDown" finished-at="2022-11-26T14:04:10 IST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testLayer.LoginPageTest@3bb9a3ff]" started-at="2022-11-02T10:59:50 IST" name="setUp" finished-at="2022-11-02T10:59:56 IST" duration-ms="5365" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testLayer.LoginPageTest@7c729a55]" started-at="2022-11-26T14:04:10 IST" name="setUp" finished-at="2022-11-26T14:04:17 IST" duration-ms="7682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.testLayer.LoginPageTest@3bb9a3ff]" started-at="2022-11-02T10:59:56 IST" name="loginTest" data-provider="LoginData123" finished-at="2022-11-02T10:59:56 IST" duration-ms="669" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.testLayer.LoginPageTest@7c729a55]" started-at="2022-11-26T14:04:17 IST" name="loginTest" data-provider="LoginData123" finished-at="2022-11-26T14:04:18 IST" duration-ms="543" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,15 +119,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testLayer.LoginPageTest@3bb9a3ff]" started-at="2022-11-02T10:59:56 IST" name="tearDown" finished-at="2022-11-02T10:59:56 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testLayer.LoginPageTest@7c729a55]" started-at="2022-11-26T14:04:18 IST" name="tearDown" finished-at="2022-11-26T14:04:18 IST" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testLayer.LoginPageTest@3bb9a3ff]" started-at="2022-11-02T10:59:56 IST" name="setUp" finished-at="2022-11-02T11:00:03 IST" duration-ms="7016" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testLayer.LoginPageTest@7c729a55]" started-at="2022-11-26T14:04:18 IST" name="setUp" finished-at="2022-11-26T14:04:23 IST" duration-ms="5016" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.testLayer.LoginPageTest@3bb9a3ff]" started-at="2022-11-02T11:00:03 IST" name="loginTest" data-provider="LoginData123" finished-at="2022-11-02T11:00:09 IST" duration-ms="5851" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.testLayer.LoginPageTest@7c729a55]" started-at="2022-11-26T14:04:23 IST" name="loginTest" data-provider="LoginData123" finished-at="2022-11-26T14:04:28 IST" duration-ms="5389" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,7 +143,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testLayer.LoginPageTest@3bb9a3ff]" started-at="2022-11-02T11:00:09 IST" name="tearDown" finished-at="2022-11-02T11:00:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testLayer.LoginPageTest@7c729a55]" started-at="2022-11-26T14:04:28 IST" name="tearDown" finished-at="2022-11-26T14:04:29 IST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
